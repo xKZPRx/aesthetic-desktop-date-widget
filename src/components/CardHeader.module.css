@@ -1,0 +1,19 @@
+.card {
+    width: 19.9375rem;
+    height: 4.3125rem;
+    background-color: rgba(125, 191, 129, 0.5);
+    box-shadow: 0 0 0 0.3125rem #B2D0B2;
+    border-radius: 2.1875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.header {
+    font-family: "Pixelify Sans", Arial, Helvetica, sans-serif;
+    font-size: 2.1875rem;
+    font-weight: normal;
+    color: white;
+    transform: translateX(-0.1875rem) translateY(-0.0625rem);
+}

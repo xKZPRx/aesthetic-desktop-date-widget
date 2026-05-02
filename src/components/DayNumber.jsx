@@ -1,7 +1,9 @@
+import styles from "./DayNumber.module.css";
+
 function DayNumber() {
     
     return (
-        <div />
+        <h1 className={styles.header}>29</h1>
     );
 }
 

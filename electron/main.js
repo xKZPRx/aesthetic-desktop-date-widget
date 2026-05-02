@@ -2,8 +2,10 @@ import { app, BrowserWindow } from "electron";
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 377,
-        height: 377,
+        frame: false,
+        transparent: true,
+        width: 387,
+        height: 387,
         resizable: false,
         autoHideMenuBar: true,
     });

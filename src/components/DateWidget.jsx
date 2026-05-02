@@ -1,11 +1,9 @@
-import DateCard from "./DateCard";
+import DateCard from "./DateCard.jsx";
 
 function DateWidget() {
     
     return (
-        <div>
-            <DateCard />
-        </div>
+        <DateCard />
     );
 }
 

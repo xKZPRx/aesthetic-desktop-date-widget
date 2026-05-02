@@ -1,4 +1,4 @@
-import DateWidget from "./components/DateWidget";
+import DateWidget from "./components/DateWidget.jsx";
 
 function App() {
   

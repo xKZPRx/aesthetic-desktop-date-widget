@@ -1,10 +1,11 @@
-import CardHeader from "./CardHeader";
-import DateDisplay from "./DateDisplay";
+import CardHeader from "./CardHeader.jsx";
+import DateDisplay from "./DateDisplay.jsx";
+import styles from "./DateCard.module.css";
 
 function DateCard() {
 
     return (
-        <div>
+        <div className={styles.card}>
             <CardHeader />
             <DateDisplay />
         </div>

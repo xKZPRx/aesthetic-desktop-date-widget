@@ -1,10 +1,11 @@
-import DayNumber from "./DayNumber";
-import MonthLabel from "./MonthLabel";
+import DayNumber from "./DayNumber.jsx";
+import MonthLabel from "./MonthLabel.jsx";
+import styles from "./DateDisplay.module.css";
 
 function DateDisplay() {
     
     return (
-        <div>
+        <div className={styles.card}>
             <DayNumber />
             <MonthLabel />
         </div>

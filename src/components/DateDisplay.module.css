@@ -1,0 +1,13 @@
+.card {
+    width: 19.9375rem;
+    height: 13.25rem;
+    background-color: rgba(125, 191, 129, 0.5);
+    box-shadow: 0 0 0 0.3125rem #B2D0B2;
+    border-radius: 2.1875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 0.3125rem;
+}
