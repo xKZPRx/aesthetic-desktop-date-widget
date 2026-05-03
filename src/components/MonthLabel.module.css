@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Pixeboy";
+    src: url("/fonts/Pixeboy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .label {
     font-family: "Pixeboy", Arial, Helvetica, sans-serif;
     font-size: 2.1875rem;

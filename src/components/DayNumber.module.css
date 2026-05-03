@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Pixeboy";
+    src: url("/fonts/Pixeboy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .header {
     font-family: "Pixeboy", Arial, Helvetica, sans-serif;
     font-size: 12.5rem;
@@ -14,7 +21,7 @@
         -0.3125rem -0.3125rem #0D6810,
         0.3125rem -0.3125rem #0D6810,
         -0.3125rem 0.3125rem #0D6810;
-    letter-spacing: 5%;
+    letter-spacing: 0.05em;
     margin: 0;
     line-height: 0.6;
     transform: translateX(0.25rem) translateY(-0.125rem);
