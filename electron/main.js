@@ -13,6 +13,7 @@ function createWindow() {
         height: 387,
         resizable: false,
         autoHideMenuBar: true,
+        alwaysOnTop: true,
         icon: path.join(__dirname, "../assets/icon.ico"),
     });
 
