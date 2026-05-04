@@ -1,4 +1,4 @@
-const { formatDay } = require('../src/utils/formatDay.js');
+import { formatDay } from "../src/utils/formatDay.js";
 
 test("formats single digit day", () => {
     expect(formatDay(3)).toBe("03");

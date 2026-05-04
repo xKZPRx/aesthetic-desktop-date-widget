@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "start": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "dependencies": {
     "react": "^19.2.5",
@@ -30,6 +30,6 @@
   },
   "jest": {
     "testMatch": ["**/*.test.js"],
-    "testPathIgnorePatterns": ["/node_modules/"]
+    "transform": {}
   }
 }
