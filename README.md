@@ -1,6 +1,13 @@
-# Aesthetic Desktop Date Widget
-
-A minimal desktop date widget built with React and Electron. Displays the current date in a simple, always-on-top window. Inspired by Little Calendar by @nasha-wanich.
+<div align="center">
+  <h1>Aesthetic Desktop Date Widget</h1>
+  <p>
+    A minimal desktop date widget built with React and Electron. Displays the current date in a simple, always-on-top window. Inspired by Little Calendar by 
+    <b>@nasha-wanich.</b>
+  </p>
+  [![Node.js](https://img.shields.io/badge/node-%3E=18-22c55e?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat)](LICENSE)
+  [![CI](https://github.com/xKZPRx/aesthetic-desktop-date-widget/actions/workflows/ci.yml/badge.svg)](https://github.com/xKZPRx/aesthetic-desktop-date-widget/actions)
+</div>
 
 ## Table of Contents
 
