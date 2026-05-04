@@ -6,7 +6,8 @@
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
-    "start": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\""
+    "start": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^19.2.5",
@@ -23,6 +24,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
+    "jest": "^30.3.0",
     "vite": "^8.0.10",
     "wait-on": "^9.0.5"
   }
