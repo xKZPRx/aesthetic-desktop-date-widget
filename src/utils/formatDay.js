@@ -1,3 +1,4 @@
 export function formatDay(d) {
-    return String(d).padStart(2, "0");
+  if (typeof d !== "number") return "";
+  return String(d).padStart(2, "0");
 }

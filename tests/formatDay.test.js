@@ -7,3 +7,9 @@ test("formats single digit day", () => {
 test("formats double digit day", () => {
     expect(formatDay(12)).toBe("12");
 });
+
+test("handles invalid day input", () => {
+    expect(formatDay(undefined)).toBe("");
+    expect(formatDay(null)).toBe("");
+    expect(formatDay("abc")).toBe("");
+});
