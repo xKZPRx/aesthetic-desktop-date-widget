@@ -27,5 +27,9 @@
     "jest": "^30.3.0",
     "vite": "^8.0.10",
     "wait-on": "^9.0.5"
+  },
+  "jest": {
+    "testMatch": ["**/*.test.js"],
+    "testPathIgnorePatterns": ["/node_modules/"]
   }
 }
