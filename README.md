@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Aesthetic Desktop Date Widget</h1>
+  <h1>Desktop Date Widget</h1>
   <p>
     A minimal desktop date widget built with React and Electron. Displays the current date in a simple, always-on-top window. Inspired by Little Calendar       by <b>@nasha-wanich.</b>
   </p>
@@ -30,8 +30,8 @@
 
 1. Clone this repository
 ```bash
-git clone https://github.com/xKZPRx/aesthetic-desktop-date-widget.git
-cd aesthetic-desktop-date-widget
+git clone https://github.com/xKZPRx/desktop-date-widget.git
+cd desktop-date-widget
 ```
 
 2. Install Node.js
